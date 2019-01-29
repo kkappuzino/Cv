@@ -1,0 +1,43 @@
+.web{
+    background-color: $main-color;
+    h1, h2, h3{
+        color: $font-color;
+        font-family: 'Staatliches', cursive;
+    }
+    h1{
+        font-size: $h1-size;
+    }
+    h2{
+        font-size: $h2-size;
+    }
+    h3{
+        font-size: $h3-size;
+    }
+    p {
+        color: $p-color;
+    }
+    .fas, .far{
+        color: #fff;
+        font-size: $h3-size;
+    }
+    section{
+    min-height: 700px; 
+    background-color: none;
+    }
+    .bottom-left{
+        position: absolute;
+        bottom: 8px;
+        left: 16px;
+    }
+
+    .progress{
+        background-color: $secondary;
+        .progress-bar{
+            background-color: $font-color
+        }
+    }
+    img{
+        width: 10%;
+    }
+
+}
