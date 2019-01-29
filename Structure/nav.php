@@ -1,5 +1,3 @@
-<img class="m-5" src="././img/logo.png" alt="logo"> 
- 
  
  <div class="nav navbar navbar-right align-middle" id="myNavbar">
         <a href="#home"><i class="fas fa-home " data-text="Home"></i></a>

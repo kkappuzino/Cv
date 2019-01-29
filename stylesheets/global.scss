@@ -36,8 +36,37 @@
             background-color: $font-color
         }
     }
-    img{
+    .logo{
         width: 10%;
     }
+    #art img:hover ~ #art{
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+    #art{
+        padding: 0;
+        .row{
+            display: -ms-flexbox; /* IE10 */
+            display: flex;
+            -ms-flex-wrap: wrap; /* IE10 */
+            flex-wrap: wrap;
+            padding: 0 4px;
+        
+            .column{
+                padding: 0;
+                flex: 33.3%;
+                max-width: 33.3%;
+            }
+            img{
+                vertical-align: middle;
+                width: 100%;
+                transition: transform .2s; 
+                &:hover {
+                    transform: scale(1.2); 
+                    
+                }
+            }
+        } 
+    }
+
 
 }

@@ -1,7 +1,7 @@
 .glitch{
     display: inline-block;
     color:$font-color;
-    font-size:$h1-size;
+    font-size: inherit;
     font-family:  'Staatliches', cursive;
     position:relative;
     margin:0 auto;
@@ -19,9 +19,10 @@
     position:absolute;
     font-family:  'Staatliches', cursive;
     left:3px;
+    font-size: inherit;
     text-shadow:-1px 0 red;
     top:0;
-    color:$font-color;
+    color:inherit;
     background:$main-color;
     overflow:hidden;
     clip:rect(0,900px,0,0); 
@@ -43,7 +44,8 @@
     left:-2px;
     text-shadow:1px 0 blue; 
     top:0;
-    color:#fff;
+    font-size: inherit;
+    color:inherit;
     background: $main-color;
     overflow:hidden;
     clip:rect(0,200px,0,0); 
@@ -53,12 +55,7 @@
 
   .glitch2, .glitch3{
     display: inline-block;
-    .glitch2{
-    color: #BA2F20;
-    }
-    .glitch3{
-        color: #8C2318
-    }
+    color: #fff;
     font-size:$h2-size;
     font-family:  'Staatliches', cursive;
     position:relative;
@@ -76,10 +73,10 @@
     content:attr(data-text);
     position:absolute;
     font-family:  'Staatliches', cursive;
-    left:3px;
-    text-shadow:-1px 0 red;
+    left:2px;
+    text-shadow:-1px 0 rgb(255, 0, 64);
     top:0;
-    color:$font-color;
+    color:inherit;
     background:$main-color;
     overflow:hidden;
     clip:rect(0,800px,0,0); 
@@ -92,7 +89,7 @@
     left:-2px;
     text-shadow:-1px 0 red;
     top:0;
-    color:$font-color;
+    color:inherit;
     background:$main-color;
     overflow:hidden;
     clip:rect(0,700px,0,0); 
@@ -111,10 +108,10 @@
     content:attr(data-text);
     position:absolute;
     font-family:  'Staatliches', cursive;
-    left:-2px;
-    text-shadow:1px 0 blue; 
+    left:-1px;
+    text-shadow:1px 0 rgb(0, 255, 242); 
     top:0;
-    color:#fff;
+    color:inherit;
     background: $main-color;
     overflow:hidden;
     clip:rect(0,300px,0,0); 
@@ -127,7 +124,7 @@
     left:2px;
     text-shadow:1px 0 blue; 
     top:0;
-    color:#fff;
+    color:inherit;
     background: $main-color;
     overflow:hidden;
     clip:rect(0,500px,0,0); 
@@ -148,13 +145,13 @@
     }
   }
   .glitch4:after{
-    content:attr(aria-valuenow);
+    content: "\f00c";
     position:absolute;
     font-family:  'Staatliches', cursive;
     left:3px;
     text-shadow:-1px 0 red;
     top:0;
-    color:$font-color;
+    color:#fff;
     background:$main-color;
     overflow:hidden;
     clip:rect(0,900px,0,0); 
@@ -170,7 +167,7 @@
     }
   }
   .glitch4:before{
-    content:attr(aria-valuenow);
+    content: "\f00c";
     position:absolute;
     font-family:  'Staatliches', cursive;
     left:-2px;

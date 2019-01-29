@@ -51,7 +51,7 @@
                             left:3px;
                             text-shadow:-1px 0 red;
                             color:$font-color;
-                            background:$main-color;
+                            
                             overflow:hidden;
                             clip:rect(0,900px,0,0); 
                             animation:noise-anim 9s infinite linear alternate-reverse;
@@ -72,7 +72,7 @@
                             left:-0.5px;
                             text-shadow:1px 0 blue; 
                             color:#fff;
-                            background: $main-color;
+                            
                             overflow:hidden;
                             clip:rect(0,200px,0,0); 
                             animation:noise-anim-2 10s infinite linear alternate-reverse;

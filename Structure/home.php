@@ -1,8 +1,9 @@
 <section id="home">
+    <img class="logo m-5" src="././img/logo1.png" alt="logo"> 
     <div class="bottom-left ml-0 ml-sm-5">
-        <span class="glitch" data-text="VENLA PAANILA">
-            Venla Paanila   
-        </span>
+       <h1 class="glitch" data-text="VENLA PAANILA">
+            Venla Paanila /
+        </h1>  
         <span class="glitch2" data-text="WEB DEVELOPER">
             Web Developer  /
         </span>
@@ -11,12 +12,11 @@
         </span>
     </div>
 </section>
-
 <section id=skills>
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <h2 class="glitch3" data-text="skills">Skills</h2>
+                <h2 class="glitch" data-text="skills">Skills</h2>
             </div>
             <div class="col-12 col-sm">
                 <h3 class="text-center">Html</h3>
@@ -72,10 +72,32 @@
             <div class="col-12">
                 <h2 class="glitch2 my-5" data-text="Things I'd like to learn" >Things I'd like to learn :</h2>
             </div><br>
-            <div class="col col-12 col-sm-3 "><h3><i class="far fa-square " ></i>  Languages</h3></div>
+            <div class="col col-12 col-sm-3 "><h3><i class="far fa-square" ></i>  Languages</h3></div>
             <div class="col col-12 col-sm-3"><h3><i class="far fa-square"></i>  Ux/ui</h3></div>
             <div class="col col-12 col-sm-3"><h3><i class="far fa-square "></i>  Piano</h3></div>
             <div class="col col-12 col-sm-3"><h3><i class="far fa-square"></i>  Product desing</h3></div>
         </div>
     </div>
+</section>
+<section id="art">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2 class="glitch my-5" data-text="I'm an artist by heart" >I'm an artist by heart  ♡  </h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="column">
+                <img src="././img/gleam9.jpg" alt=""><img src="././img/pearl2.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="././img/jen6.jpg" alt=""><img src="././img/nak9.jpg" alt="">
+            </div>
+            <div class="column">
+                <img src="././img/ul9.jpg" alt=""><img src="././img/Soo15.jpg" alt="">
+            </div>
+        </div>
+    </div>
+
+
 </section>
