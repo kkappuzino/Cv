@@ -1,4 +1,7 @@
 .web{
+    position: absolute;
+    margin: auto;
+    overflow: hidden;
     background-color: $main-color;
     h1, h2, h3{
         color: $font-color;
@@ -21,13 +24,16 @@
         font-size: $h3-size;
     }
     section{
-    min-height: 700px; 
-    background-color: none;
+        position: relative;
+        min-height: 700px;
+        margin: auto;
+        left: 10%;
+
     }
     .bottom-left{
         position: absolute;
-        bottom: 8px;
-        left: 16px;
+        bottom: 5%;
+        left: -3%;
     }
 
     .progress{
@@ -37,7 +43,7 @@
         }
     }
     .logo{
-        width: 10%;
+        width: 35%;
     }
     #art{
         padding: 0;
