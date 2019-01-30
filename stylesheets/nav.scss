@@ -2,33 +2,38 @@
     .web{
         .navbar{
             top: 30%;
-            position: fixed;
+            position: relative;
             display: grid;
             right: 0;
             color:$font-color;
             font-size:$h3-size;
             font-family:  'Staatliches', cursive;
             text-align: right;
-            &::after{
-                content: "";
-                top: 0;
-                right: 35px;
-                display: block;
-                position: absolute;
-                border-right: 1px solid #fff;
-                height: 300px;
-                z-index: 100;
-            }
-            a{
-                color:$font-color;
-                text-decoration: none;
+
+            ul{
+                top: 30%;
+                position: fixed;
+                right: 0;
+                list-style: none;
 
                 &:hover{
                     text-decoration: none;
                     color: #fff;
-
-                    
-                }      
+                }
+                &::after{
+                    content: "";
+                    top: 0;
+                    right: 35px;
+                    display: block;
+                    position: absolute;
+                    border-right: 1px solid #fff;
+                    height: 300px;
+                    z-index: 100;
+                }
+                li{
+                    margin-right: 20px;
+                }
+                      
                 i{
                     padding-top: 10px;
                     padding-bottom: 25px;

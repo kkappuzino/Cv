@@ -1,9 +1,11 @@
  
  <div class="nav navbar navbar-right align-middle" id="myNavbar">
-        <a href="#home"><i class="fas fa-home " data-text="Home"></i></a>
-        <a href="#skills"><i class="fas fa-code " data-text="Skills"></i></a>
-        <a href="#art"><i class="fas fa-pen " data-text="Art"></i></a>
-        <a href="#me"><i class="fas fa-at" data-text="About Me"></i></a>
+      <ul>
+        <li><a href="#home"><i class="fas fa-home " data-text="Home"></i></a></li>
+        <li><a href="#skills"><i class="fas fa-code " data-text="Skills"></i></a></li>
+        <li><a href="#art"><i class="fas fa-pen " data-text="Art"></i></a></li>
+        <li><a href="#me"><i class="fas fa-at" data-text="About Me"></i></a></li>
+      </ul>
     </div>
 <script>
 $(document).ready(function(){

@@ -1,7 +1,7 @@
 <section id="home">
     <div class="container-fluid">
         <div class="row">
-            <div class="col col-hidden col-sm-4 mt-5 mx-5">
+            <div class="col col-hidden col-sm-4 mt-3 ml-3">
                 <img class="logo " src="././img/logo1.png" alt="logo">
             </div> 
         </div>
@@ -107,10 +107,41 @@
         </div>
     </div>
 </section>
+<br><br><br>
 <section id="me">
     <div class="container">
         <div class="row">
-
+            <div class="col col-12">
+                <h2 class="glitch m-5" data-text=" About Me">About Me #</h2>
+            </div>
+            <div class="col col-12 col-sm-4 text-center pr-5">
+                <img src="././img/me.jpg" class="circle" alt=""><hr>
+                <h3 class="glitch" data-text="VENLA PAANILA">
+                    Venla Paanila /
+                </h3> 
+                <h4 class="glitch3" data-text="18   Finland">
+                    18 / Finland
+                </h4> 
+            </div>
+            <div class="col col-12 col-sm-8 left-border">
+                <h3 class="glitch2" data-text="Education">Education //</h3>
+                <h4>Tredu Vocational Qualification in Business Information Technology</h4>
+                <p>2017-2019</p>
+                <h3 class="glitch3" data-text="Work experience">Work experience //</h3>
+                <h4>Bermuda oy Mainostoimisto</h4>
+                <p>October 2018 - December 2018</p>
+                <p>worked as a trainee. Had my own project.</p>
+                <h3 class="glitch" data-text="contact info">contact info //</h3><br>
+                <div class="column">
+                    <h4>Email</h4>
+                    <p>venla.p123@gmail.com</p>
+                </div>
+                <div class="column ml-0 ml-sm-5">
+                    <h4>Social</h4>
+                    <a class="mr-2" href="https://www.instagram.com/kkappuzino/"><i class="fab fa-instagram" data-text="Personal"></i></a>
+                    <a href="https://www.instagram.com/chubunart/"><i class="fab fa-instagram" data-text="Art"></i></a>
+                </div>
+            </div>
         </div>
     </div>
 </section>

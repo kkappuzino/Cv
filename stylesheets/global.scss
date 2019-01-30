@@ -1,8 +1,10 @@
 .web{
     position: absolute;
+    width: 100%;
     margin: auto;
     overflow-x: hidden;
     background-color: $main-color;
+    
     h1, h2, h3{
         color: $font-color;
         font-family: 'Staatliches', cursive;
@@ -16,8 +18,18 @@
     h3{
         font-size: $h3-size;
     }
+    h4{
+        font-size: 25px;
+        color: #fff;
+        font-family: 'Staatliches', cursive;
+    }
     p {
         color: $p-color;
+        font-size: $p-size;
+        font-family: 'Raleway', sans-serif;
+    }
+    hr{
+        color: #fff;
     }
     .fas, .far{
         color: #fff;
@@ -26,14 +38,13 @@
     section{
         position: relative;
         min-height: 700px;
-        margin: auto;
-        left: 10%;
+
 
     }
     .bottom-left{
         position: absolute;
         bottom: 5%;
-        left: -3%;
+        left:3%
     }
 
     .progress{
@@ -43,7 +54,8 @@
         }
     }
     .logo{
-        width: 35%;
+        width: 40%;
+
     }
     #art{
         padding: 0;
@@ -70,6 +82,44 @@
             }
         } 
     }
+    .circle{
+        border-radius: 360px;
+        width: 100%;
+        margin: auto;
+    }
+    .left-border{
+        border-left: 2px solid #fff; 
+        .column{
+            display: inline-block;
+            i{
+                color: #fff;
+                font-size: $h3-size;
+                &:hover{
+                    color:$font-color;
+                    font-family:  'Staatliches', cursive;
+                  
+                    @keyframes noise-anim{
+                        $steps:20;
+                        @for $i from 0 through $steps{
+                        #{percentage($i*(1/$steps))}{
+                            clip:rect(random(100)+px,9999px,random(100)+px,0);
+                        }
+                        }
+                    }
+                    &:before{
+                        content:attr(data-text);
+                        position: relative;
+                        font-family:  'Staatliches', cursive;
+                        left:3px;
+                        text-shadow:-1px 0 red;
+                        color:$font-color;
+                        overflow:hidden;
+                        clip:rect(0,900px,0,0); 
+                        animation:noise-anim 9s infinite linear alternate-reverse;
+                    }
+            }
+        }
+    }
 
-
+}
 }
