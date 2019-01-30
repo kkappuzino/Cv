@@ -1,7 +1,7 @@
 .web{
     position: absolute;
     margin: auto;
-    overflow: hidden;
+    overflow-x: hidden;
     background-color: $main-color;
     h1, h2, h3{
         color: $font-color;
