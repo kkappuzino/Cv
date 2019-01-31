@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Venla Paanila</title>
+    <title>Venlan CV</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="apple-touch-icon" sizes="57x57" href="./img/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="./img/apple-icon-60x60.png">
@@ -87,7 +87,7 @@
                 </div> 
             </div>
             <div class="row">
-                <div class="col col-11 bottom-left ">
+                <div class="col col-12 bottom-left ">
                     <h1 class="glitch" data-text="VENLA PAANILA">
                         Venla Paanila /
                     </h1>  
@@ -185,11 +185,6 @@
                 <div class="column">
                     <img src="././img/ul9.jpg" alt=""><img src="././img/Soo15.jpg" alt="">
                 </div>
-                <a href="https://www.instagram.com/chubunart/">
-                    <div class="col col-12 text-center bg-color py-3 my-5">
-                        <i class="fab fa-instagram" data-text="Art"></i>
-                    </div>
-                </a>
             </div>
         </div>
     </section>
@@ -200,7 +195,7 @@
                 <div class="col col-12">
                     <h2 class="glitch m-5" data-text=" About Me">About Me #</h2>
                 </div>
-                <div class="col col-12 col-sm-4 text-center pr-5 ">
+                <div class="col col-12 col-sm-4 text-center pr-5">
                     <img src="././img/me.jpg" class="circle" alt=""><hr>
                     <h3 class="glitch" data-text="VENLA PAANILA">
                         Venla Paanila /
@@ -225,6 +220,7 @@
                     <div class="column ml-0 ml-sm-5">
                         <h4>Social</h4>
                         <a class="mr-2" href="https://www.instagram.com/kkappuzino/"><i class="fab fa-instagram" data-text="Personal"></i></a>
+                        <a href="https://www.instagram.com/chubunart/"><i class="fab fa-instagram" data-text="Art"></i></a>
                     </div>
                 </div>
             </div>
@@ -234,76 +230,9 @@
 <div class="footer">
     <div class="container-fluid">
         <div class="row">
-            <div class="col col-12 col-sm-6 ml-0 ml-sm-3">
-                <h2> This website<br> is</h2>
-                <div class="c-progress-circle" id="circle" data-percentage="67">
-                    
-                    <svg class="c-progress-circle__svg">
-                        <defs>
-                            <linearGradient id="gradient">
-                                <stop offset="0%" stop-color="#FFf" />
-                                <stop offset="100%" stop-color="#FF1900" />
-                            </linearGradient>
-                        </defs>
-                        <circle class="c-progress-circle__bar" r="90" cx="50%" cy="50%" stroke="url(#gradient)"></circle> 
-                    </svg>
-                    <br><br>
-                    <h2> Finished</h2>
-                </div>
-            </div>
-            <div class="col col-12 col-sm-4 text-center p-5">
-                <h3>PDF version of my CV</h3>
-                <a class="cv px-5 py-2" href="././img/CV.pdf" target="_blank" ><i class="far fa-file-pdf" data-text="CV"></i></a><br><br>
-                <p>(Only in Finnish ATM)</p>
-            </div>
-            <div class="col col-12 col-sm-12 align-right">
+            <div class="col col-12">
                 <p><i class="far fa-copyright"></i> All rights reserved 2019</p>
             </div>
         </div>
     </div>
-</div>
-<script>
-var progressCircles = document.querySelectorAll('.c-progress-circle');
-
-setTimeout(function(){
-  for(var i=0; i < progressCircles.length; i++) {
-    var circle = progressCircles[i],
-        val = Number(circle.getAttribute('data-percentage')),
-        bar = circle.querySelectorAll('.c-progress-circle__bar')[0];
-
-    if (isNaN(val)) {
-      val = 100;
-    }
-    else {
-      var r = bar.getAttribute('r');
-      var c = Math.PI*(r*2);
-
-      if (val < 0) { val = 0;}
-      if (val > 100) { val = 100;}
-
-      var pct = ((100-val)/100)*c;
-
-      bar.style.strokeDashoffset = pct;
-      bar.setAttribute('data-percentage', val);
-    }
-  }
-}, 500);
-</script>
-
-<!--
-
-<div class="c-progress-circle  c-progress-circle--sm" data-percentage="50">
-  <svg class="c-progress-circle__svg">
-    <circle class="c-progress-circle__bar" r="40" cx="50%" cy="50%" stroke="url(#gradient)"></circle> 
-  </svg>
-</div>
-<div class="c-progress-circle  c-progress-circle--sm" data-percentage="89">
-  <svg class="c-progress-circle__svg">
-    <circle class="c-progress-circle__bar" r="40" cx="50%" cy="50%" stroke="url(#gradient)"></circle> 
-  </svg>
-</div>
-<div class="c-progress-circle  c-progress-circle--sm" data-percentage="77">
-  <svg class="c-progress-circle__svg">
-    <circle class="c-progress-circle__bar" r="40" cx="50%" cy="50%" stroke="url(#gradient)"></circle> 
-  </svg>
 </div>

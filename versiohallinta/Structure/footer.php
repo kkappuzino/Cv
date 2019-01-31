@@ -19,11 +19,6 @@
                     <h2> Finished</h2>
                 </div>
             </div>
-            <div class="col col-12 col-sm-4 text-center p-5">
-                <h3>PDF version of my CV</h3>
-                <a class="cv px-5 py-2" href="././img/CV.pdf" target="_blank" ><i class="far fa-file-pdf" data-text="CV"></i></a><br><br>
-                <p>(Only in Finnish ATM)</p>
-            </div>
             <div class="col col-12 col-sm-12 align-right">
                 <p><i class="far fa-copyright"></i> All rights reserved 2019</p>
             </div>

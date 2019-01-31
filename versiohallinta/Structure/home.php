@@ -6,7 +6,7 @@
             </div> 
         </div>
         <div class="row">
-            <div class="col col-11 bottom-left ">
+            <div class="col col-12 bottom-left ">
                 <h1 class="glitch" data-text="VENLA PAANILA">
                     Venla Paanila /
                 </h1>  
@@ -104,11 +104,6 @@
             <div class="column">
                 <img src="././img/ul9.jpg" alt=""><img src="././img/Soo15.jpg" alt="">
             </div>
-            <a href="https://www.instagram.com/chubunart/">
-                <div class="col col-12 text-center bg-color py-3 my-5">
-                    <i class="fab fa-instagram" data-text="Art"></i>
-                </div>
-            </a>
         </div>
     </div>
 </section>
@@ -119,7 +114,7 @@
             <div class="col col-12">
                 <h2 class="glitch m-5" data-text=" About Me">About Me #</h2>
             </div>
-            <div class="col col-12 col-sm-4 text-center pr-5 ">
+            <div class="col col-12 col-sm-4 text-center pr-5">
                 <img src="././img/me.jpg" class="circle" alt=""><hr>
                 <h3 class="glitch" data-text="VENLA PAANILA">
                     Venla Paanila /
@@ -144,6 +139,7 @@
                 <div class="column ml-0 ml-sm-5">
                     <h4>Social</h4>
                     <a class="mr-2" href="https://www.instagram.com/kkappuzino/"><i class="fab fa-instagram" data-text="Personal"></i></a>
+                    <a href="https://www.instagram.com/chubunart/"><i class="fab fa-instagram" data-text="Art"></i></a>
                 </div>
             </div>
         </div>

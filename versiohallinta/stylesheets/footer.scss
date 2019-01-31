@@ -12,42 +12,6 @@
     .far{
         font-size: 18PX;
     }
-    .cv{
-        width: 80%;
-        background-color: $font-color;
-        i{
-            font-size: $h3-size;
-            color: #fff;
-        }
-        &:hover{
-            background-color: #fff; 
-            i{
-                color:$font-color;
-                font-family:  'Staatliches', cursive;
-            
-            
-                @keyframes noise-anim{
-                    $steps:20;
-                    @for $i from 0 through $steps{
-                    #{percentage($i*(1/$steps))}{
-                        clip:rect(random(100)+px,9999px,random(100)+px,0);
-                    }
-                    }
-                }
-                &:before{
-                    content:attr(data-text);
-                    position: relative;
-                    font-family:  'Staatliches', cursive;
-                    left:3px;
-                    text-shadow:-1px 0 red;
-                    color:$font-color;
-                    overflow:hidden;
-                    clip:rect(0,900px,0,0); 
-                    animation:noise-anim 9s infinite linear alternate-reverse;
-                }
-            }
-        }
-    }
 
     // Geometry!
     $pi: 3.14159265359;
